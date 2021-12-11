@@ -19,8 +19,9 @@ service rabbitmq-server status
 ```bash
 #create project
 django-admin startproject django_celery
-cd django_celery && mkdir applications
-cd applications
+
 #create app
+mkdir applications
+cd applications
 django-admin startapp taks
 ```
