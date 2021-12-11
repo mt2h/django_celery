@@ -14,6 +14,7 @@ pip install celery==4.1.0
 sudo apt-get install erlang -y
 sudo apt-get install rabbitmq-server -y
 service rabbitmq-server status
+echo "export PYTHONPATH="/home/momo/repos/django_celery" >> env_django_celery/bin/activate 
 ```
 
 ## create project on django
@@ -35,4 +36,5 @@ cd ../django_celery/
 #execute project
 ./manage.py runserver
 http://localhost:8000/
+http://localhost:8000/admin/
 ```
