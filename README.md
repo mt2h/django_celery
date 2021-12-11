@@ -31,4 +31,8 @@ touch __init__.py
 #run to migrate
 cd ../django_celery/
 ./manage.py migrate
+
+#execute project
+./manage.py runserver
+http://localhost:8000/
 ```
