@@ -24,4 +24,5 @@ django-admin startproject django_celery
 mkdir applications
 cd applications
 django-admin startapp taks
+touch __init__.py
 ```
