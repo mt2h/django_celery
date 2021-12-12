@@ -43,9 +43,19 @@ http://localhost:8000/admin/
 ## commands django
 
 ```bash
+#create user
 pip install django-extensions==2.0.6
 ./manage.py shell_plus
 >>
 from applications.taks.views import *
 create_user_random(500)
+
+#sent emails
+./manage.py shell_plus
+>>
+from applications.taks.tasks import *
+send_emails_users()
 ```
+
+# account gmail
+![Board](./img/no_secure_gmail.png)
