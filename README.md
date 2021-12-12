@@ -37,4 +37,15 @@ cd ../django_celery/
 ./manage.py runserver
 http://localhost:8000/
 http://localhost:8000/admin/
+
+```
+
+## commands django
+
+```bash
+pip install django-extensions==2.0.6
+./manage.py shell_plus
+>>
+from applications.taks.views import *
+create_user_random(500)
 ```
